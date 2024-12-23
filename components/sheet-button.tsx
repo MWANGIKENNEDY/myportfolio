@@ -11,7 +11,7 @@ const SheetButton = ({ buttonLabel = "Open"}) => {
     <Sheet>
     {/* The Button acts as the trigger */}
     <SheetTrigger asChild>
-      <Button className=' lg:hidden'>{buttonLabel}</Button>
+      <Button className="lg:hidden">{buttonLabel}</Button>
     </SheetTrigger>
 
     {/* Sheet Content */}
