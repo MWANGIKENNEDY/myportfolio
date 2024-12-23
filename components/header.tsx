@@ -2,7 +2,7 @@ import Link from "next/link";
 import React from "react";
 import { Button } from "./ui/button";
 import ThemeToggle from "./theme-toggle";
-import SheetButton from "./sheet-button";
+// import SheetButton from "./sheet-button";
 
 
 const Header = () => {
@@ -33,7 +33,7 @@ const Header = () => {
             <Button variant="outline">Resume</Button>
           </li>
 
-          <SheetButton/>
+          {/* <SheetButton/> */}
 
           <ThemeToggle />
         </ul>
