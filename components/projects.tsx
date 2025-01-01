@@ -4,35 +4,40 @@ import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle }
 import {  ExternalLink, Github } from 'lucide-react';
 import { Button } from './ui/button';
 import { Badge } from './ui/badge';
+import Image from 'next/image';
 
 const projects = [
     {
       title: "Todo App",
       description: "A brief description of Project 1",
       tags: ["React", "Node.js", "MongoDB"],
-      liveLink: "https://project1.com",
-      githubLink: "https://github.com/johndoe/project1"
+      liveLink: "https://school-management-system-pt036jue8-mwangikennedys-projects.vercel.app/",
+      githubLink: "https://github.com/MWANGIKENNEDY/school-management-system.git",
+      coverImage:"/school-system.png"
     },
     {
       title: "Car Select App",
       description: "A brief description of Project 2",
       tags: ["Vue.js", "Express", "PostgreSQL"],
       liveLink: "https://project2.com",
-      githubLink: "https://github.com/johndoe/project2"
+      githubLink: "https://github.com/johndoe/project2",
+      coverImage:"/school-system.png"
     },
     {
       title: "Gym App",
       description: "A brief description of Project 3",
       tags: ["Next.js", "GraphQL", "Tailwind CSS"],
       liveLink: "https://project3.com",
-      githubLink: "https://github.com/johndoe/project3"
+      githubLink: "https://github.com/johndoe/project3",
+      coverImage:"/school-system.png"
     },
     {
       title: "Food Ordering App",
       description: "A brief description of Project 3",
       tags: ["Next.js", "GraphQL", "Tailwind CSS"],
       liveLink: "https://project3.com",
-      githubLink: "https://github.com/johndoe/project3"
+      githubLink: "https://github.com/johndoe/project3",
+      coverImage:"/school-system.png"
     }
   ]
 const Projects = () => {
@@ -68,6 +73,11 @@ const Projects = () => {
                     </a>
                   </Button>
                 </CardFooter>
+
+                <div className={`h-56 relative rounded-lg overflow-hidden`}>
+
+|<Image src={project.coverImage} alt='' fill className=' object-cover '/>
+                </div>
               </Card>
             ))}
           </div>
