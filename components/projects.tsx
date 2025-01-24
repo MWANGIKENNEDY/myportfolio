@@ -8,37 +8,40 @@ import Image from 'next/image';
 
 const projects = [
     {
-      title: "Todo App",
+      title: "School Management System",
       description: "A brief description of Project 1",
-      tags: ["React", "Node.js", "MongoDB"],
+      tags: ["React", "Postgresql", "MySQL", "Docker", "Prisma", "Cloudinare"],
       liveLink: "https://school-management-system-pt036jue8-mwangikennedys-projects.vercel.app/",
       githubLink: "https://github.com/MWANGIKENNEDY/school-management-system.git",
       coverImage:"/school-system.png"
     },
     {
-      title: "Car Select App",
-      description: "A brief description of Project 2",
-      tags: ["Vue.js", "Express", "PostgreSQL"],
-      liveLink: "https://project2.com",
-      githubLink: "https://github.com/johndoe/project2",
-      coverImage:"/school-system.png"
+      title: "Food Ordering App",
+      description: "This is a food ordering app design using Tailwind CSS and Zustand state management.",
+      tags: ["Next.js", "Zustand", "Tailwind CSS"],
+      liveLink: "https://next-food-booking.vercel.app/",
+      githubLink: "https://github.com/MWANGIKENNEDY/nextFoodBooking",
+      coverImage:"/foodApp.png"
     },
+
     {
       title: "Gym App",
-      description: "A brief description of Project 3",
-      tags: ["Next.js", "GraphQL", "Tailwind CSS"],
-      liveLink: "https://project3.com",
-      githubLink: "https://github.com/johndoe/project3",
-      coverImage:"/school-system.png"
+      description: "This is a gym booking app design using Tailwind CSS and Framer Motion for animations.",
+      tags: ["Next.js", "Framer-Motion", "Tailwind CSS"],
+      liveLink: "https://next-gymapp.vercel.app/",
+      githubLink: "https://github.com/MWANGIKENNEDY/nextGymapp",
+      coverImage:"/gymApp.png"
     },
-    {
-      title: "Food Ordering App",
-      description: "A brief description of Project 3",
-      tags: ["Next.js", "GraphQL", "Tailwind CSS"],
-      liveLink: "https://project3.com",
-      githubLink: "https://github.com/johndoe/project3",
-      coverImage:"/school-system.png"
-    }
+    // {
+    //   title: "Car Select App",
+    //   description: "A brief description of Project 2",
+    //   tags: ["Vue.js", "Express", "PostgreSQL"],
+    //   liveLink: "https://project2.com",
+    //   githubLink: "https://github.com/johndoe/project2",
+    //   coverImage:"/school-system.png"
+    // },
+   
+    
   ]
 const Projects = () => {
   return (
