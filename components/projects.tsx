@@ -40,6 +40,15 @@ const projects = [
     //   githubLink: "https://github.com/johndoe/project2",
     //   coverImage:"/school-system.png"
     // },
+
+    {
+      title: "Ecommerce App",
+      description: "This is an Ecommerce app design using Tailwind CSS.",
+      tags: ["Next.js", "Tailwind CSS"],
+      liveLink: "https://ecommerce-1tij-em7d7rhwa-mwangikennedys-projects.vercel.app/",
+      githubLink: "https://github.com/MWANGIKENNEDY/ecommerce.git",
+      coverImage:"/ecommerce.png"
+    },
    
     
   ]
