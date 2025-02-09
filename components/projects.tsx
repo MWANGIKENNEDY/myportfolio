@@ -49,7 +49,14 @@ const projects = [
       githubLink: "https://github.com/MWANGIKENNEDY/ecommerce.git",
       coverImage:"/ecommerce.png"
     },
-   
+    {
+      title: "Blog App",
+      description: "This is blog app built using NextJs and Tailwind CSS .",
+      tags: ["Next.js", "Tailwind CSS", "Clerk Authentication", "ExpressJS", "MongoDB", "Tanstack React-Query"],
+      liveLink: "https://my-blog-1i1s.vercel.app/",
+      githubLink: "https://github.com/MWANGIKENNEDY/my-blog.git",
+      coverImage:"/blog.png"
+    },
     
   ]
 const Projects = () => {
@@ -86,7 +93,7 @@ const Projects = () => {
                   </Button>
                 </CardFooter>
 
-                <div className={`h-56 relative rounded-lg overflow-hidden`}>
+                <div className={`h-48 relative rounded-lg overflow-hidden`}>
 
 |<Image src={project.coverImage} alt='' fill className=' object-cover '/>
                 </div>
