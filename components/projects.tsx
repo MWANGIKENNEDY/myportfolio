@@ -57,7 +57,14 @@ const projects = [
       githubLink: "https://github.com/MWANGIKENNEDY/my-blog.git",
       coverImage:"/blog.png"
     },
-    
+    {
+      title: "Admin Dashboard",
+      description: "This is an admin dashboard built using Shadcn UI and Mantine charts .",
+      tags: ["Next.js", "Tailwind CSS", "Mantine Charts", "Shadcn UI"],
+      liveLink: "https://admin-dashboard-jfp4kk2vq-mwangikennedys-projects.vercel.app/",
+      githubLink: "https://github.com/MWANGIKENNEDY/admin-dashboard.git",
+      coverImage:"/admin-dashboard.png"
+    },
   ]
 const Projects = () => {
   return (
