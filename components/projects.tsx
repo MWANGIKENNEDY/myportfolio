@@ -32,15 +32,6 @@ const projects = [
       githubLink: "https://github.com/MWANGIKENNEDY/nextGymapp",
       coverImage:"/gymApp.png"
     },
-    // {
-    //   title: "Car Select App",
-    //   description: "A brief description of Project 2",
-    //   tags: ["Vue.js", "Express", "PostgreSQL"],
-    //   liveLink: "https://project2.com",
-    //   githubLink: "https://github.com/johndoe/project2",
-    //   coverImage:"/school-system.png"
-    // },
-
     {
       title: "Ecommerce App",
       description: "This is an Ecommerce app design using Tailwind CSS.",
@@ -64,6 +55,14 @@ const projects = [
       liveLink: "https://admin-dashboard-jfp4kk2vq-mwangikennedys-projects.vercel.app/",
       githubLink: "https://github.com/MWANGIKENNEDY/admin-dashboard.git",
       coverImage:"/admin-dashboard.png"
+    },
+    {
+      title: "X Clone",
+      description: "This is a clone of popular social media platform X, using Next JS and Tailwind CSS.",
+      tags: ["Next.js", "Tailwind CSS", "ImageKit", "Shadcn UI"],
+      liveLink: "https://x-clone-qzsi.vercel.app/",
+      githubLink: "https://github.com/MWANGIKENNEDY/x-clone.git",
+      coverImage:"/xclone.png"
     },
   ]
 const Projects = () => {
