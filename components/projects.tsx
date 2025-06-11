@@ -64,6 +64,15 @@ const projects = [
       githubLink: "https://github.com/MWANGIKENNEDY/x-clone.git",
       coverImage:"/xclone.png"
     },
+
+    {
+      title: "Mansory Image Gallery",
+      description: "This is an Unsplash-like photo gallery using the famous mansory layout style.",
+      tags: ["Next.js", "Tailwind CSS"],
+      liveLink: "https://mansory-style.vercel.app/",
+      githubLink: "https://github.com/MWANGIKENNEDY/mansory-style.git",
+      coverImage:"/mansory.png"
+    },
   ]
 const Projects = () => {
   return (
