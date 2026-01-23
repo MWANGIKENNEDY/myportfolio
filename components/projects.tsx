@@ -10,6 +10,16 @@ import { motion } from 'framer-motion';
 
 const projects = [
 
+
+  {
+    title: "ECOMMERCE filters",
+    description: "A premium e-commerce experience featuring advanced filtering, real-time cart persistence, and a modern multi-step checkout flow.",
+    tags: ["Next.js", "Tailwind CSS"],
+    liveLink: "https://ecommerce-filters-tau.vercel.app/",
+    githubLink: "https://github.com/MWANGIKENNEDY/ecommerce-filters",
+    coverImage: "/ecom-filter.png"
+  },
+
    {
     title: "ADMIN Dashboard",
     description: "A premium e-commerce experience featuring advanced filtering, real-time cart persistence, and a modern multi-step checkout flow.",
