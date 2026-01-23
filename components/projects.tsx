@@ -9,6 +9,60 @@ import Image from 'next/image';
 import { motion } from 'framer-motion';
 
 const projects = [
+
+  {
+    title: "Hotel Booking UI with URL driven state",
+    description: "A premium e-commerce experience featuring advanced filtering, real-time cart persistence, and a modern multi-step checkout flow.",
+    tags: ["Next.js", "Tailwind CSS"],
+    liveLink: "https://hotel-booking-534llpmnl-mwangikennedys-projects.vercel.app/",
+    githubLink: "https://github.com/MWANGIKENNEDY/hotel-booking-ui",
+    coverImage: "/hotel-booking.png"
+  },
+
+  {
+    title: "Jobs App - With URL driven state",
+    description: "A premium e-commerce experience featuring advanced filtering, real-time cart persistence, and a modern multi-step checkout flow.",
+    tags: ["Next.js", "Tailwind CSS"],
+    liveLink: "https://jobs-jfob37zsb-mwangikennedys-projects.vercel.app/",
+    githubLink: "https://github.com/MWANGIKENNEDY/jobs-app",
+    coverImage: "/job-board.png"
+  },
+
+     {
+    title: "URL driven multi-step form",
+    description: "A premium e-commerce experience featuring advanced filtering, real-time cart persistence, and a modern multi-step checkout flow.",
+    tags: ["Next.js", "Tailwind CSS"],
+    liveLink: "https://multi-step-form-isq4o20y2-mwangikennedys-projects.vercel.app/",
+    githubLink: "https://github.com/MWANGIKENNEDY/multi-step-form",
+    coverImage: "/multi-step-form.png"
+  },
+
+    {
+    title: "JIRA style drag and drop",
+    description: "A premium e-commerce experience featuring advanced filtering, real-time cart persistence, and a modern multi-step checkout flow.",
+    tags: ["Next.js", "Tailwind CSS"],
+    liveLink: "https://drag-and-drop-jira-kz24my3l9-mwangikennedys-projects.vercel.app/",
+    githubLink: "https://github.com/MWANGIKENNEDY/drag-and-drop-jira",
+    coverImage: "/drag-drop.png"
+  },
+
+  {
+    title: "Product Catalog - Using URL parameters as state",
+    description: "A premium e-commerce experience featuring advanced filtering, real-time cart persistence, and a modern multi-step checkout flow.",
+    tags: ["Next.js", "Tailwind CSS"],
+    liveLink: "https://holding-state-in-url-search-paramet.vercel.app/",
+    githubLink: "https://github.com/MWANGIKENNEDY/holding-state-in-url-search-parameters",
+    coverImage: "/product-catalog.png"
+  },
+
+    {
+    title: "Tour Landing Site",
+    description: "A premium e-commerce experience featuring advanced filtering, real-time cart persistence, and a modern multi-step checkout flow.",
+    tags: ["Next.js", "Tailwind CSS"],
+    liveLink: "https://tour-landing-page-genesis.vercel.app/",
+    githubLink: "https://github.com/MWANGIKENNEDY/tour-landing-page.git",
+    coverImage: "/tour-landing.png"
+  },
   {
     title: "Ecommerce Advanced",
     description: "A premium e-commerce experience featuring advanced filtering, real-time cart persistence, and a modern multi-step checkout flow.",
