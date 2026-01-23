@@ -10,6 +10,15 @@ import { motion } from 'framer-motion';
 
 const projects = [
 
+   {
+    title: "ADMIN Dashboard",
+    description: "A premium e-commerce experience featuring advanced filtering, real-time cart persistence, and a modern multi-step checkout flow.",
+    tags: ["Next.js", "Tailwind CSS"],
+    liveLink: "https://admin-dashboard-with-shadcn.vercel.app/",
+    githubLink: "https://github.com/MWANGIKENNEDY/admin-dashboard-with-shadcn",
+    coverImage: "/admin-dash.png"
+  },
+
   {
     title: "Hotel Booking UI with URL driven state",
     description: "A premium e-commerce experience featuring advanced filtering, real-time cart persistence, and a modern multi-step checkout flow.",
