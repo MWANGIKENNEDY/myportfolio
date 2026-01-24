@@ -9,20 +9,40 @@ import Image from 'next/image';
 import { motion } from 'framer-motion';
 
 const projects = [
-
+  {
+    title: "Multi-Step Checkout Experience",
+    description:
+      "A polished multi-step checkout flow designed for conversion, featuring smooth step transitions, clear progress tracking, and a production-ready user experience.",
+    tags: ["Next.js", "Tailwind CSS"],
+    liveLink: "https://multi-step-checkout-form-one.vercel.app/checkout?step=1",
+    githubLink: "https://github.com/MWANGIKENNEDY/multi-step-checkout-form",
+    coverImage: "/multi-step.png"
+  },
 
   {
-    title: "ECOMMERCE filters",
-    description: "A premium e-commerce experience featuring advanced filtering, real-time cart persistence, and a modern multi-step checkout flow.",
+    title: "Admin Dashboard – Tab-Driven Layout",
+    description:
+      "A clean admin dashboard showcasing tab-based navigation for managing users and data, focused on clarity, scalability, and UX consistency.",
+    tags: ["Next.js", "Tailwind CSS"],
+    liveLink: "https://admin-dashboard-tabs.vercel.app/admin?tab=users",
+    githubLink: "https://github.com/MWANGIKENNEDY/admin-dashboard-tabs",
+    coverImage: "/admin-dash-tabs.png"
+  },
+
+  {
+    title: "E-Commerce Filters UI",
+    description:
+      "Advanced product filtering UI demonstrating search, category selection, and responsive filtering patterns commonly used in modern e-commerce platforms.",
     tags: ["Next.js", "Tailwind CSS"],
     liveLink: "https://ecommerce-filters-tau.vercel.app/",
     githubLink: "https://github.com/MWANGIKENNEDY/ecommerce-filters",
     coverImage: "/ecom-filter.png"
   },
 
-   {
-    title: "ADMIN Dashboard",
-    description: "A premium e-commerce experience featuring advanced filtering, real-time cart persistence, and a modern multi-step checkout flow.",
+  {
+    title: "Admin Dashboard – Shadcn UI",
+    description:
+      "A modern admin dashboard built with Shadcn UI components, emphasizing clean layouts, reusable components, and scalable dashboard architecture.",
     tags: ["Next.js", "Tailwind CSS"],
     liveLink: "https://admin-dashboard-with-shadcn.vercel.app/",
     githubLink: "https://github.com/MWANGIKENNEDY/admin-dashboard-with-shadcn",
@@ -30,8 +50,9 @@ const projects = [
   },
 
   {
-    title: "Hotel Booking UI with URL driven state",
-    description: "A premium e-commerce experience featuring advanced filtering, real-time cart persistence, and a modern multi-step checkout flow.",
+    title: "Hotel Booking UI (URL-Driven State)",
+    description:
+      "A booking interface where search state, dates, and filters are fully synchronized with URL parameters for shareable and persistent user sessions.",
     tags: ["Next.js", "Tailwind CSS"],
     liveLink: "https://hotel-booking-534llpmnl-mwangikennedys-projects.vercel.app/",
     githubLink: "https://github.com/MWANGIKENNEDY/hotel-booking-ui",
@@ -39,26 +60,29 @@ const projects = [
   },
 
   {
-    title: "Jobs App - With URL driven state",
-    description: "A premium e-commerce experience featuring advanced filtering, real-time cart persistence, and a modern multi-step checkout flow.",
+    title: "Jobs Board Application",
+    description:
+      "A job listing platform using URL-driven state to handle filters, search queries, and navigation without relying on local component state.",
     tags: ["Next.js", "Tailwind CSS"],
     liveLink: "https://jobs-jfob37zsb-mwangikennedys-projects.vercel.app/",
     githubLink: "https://github.com/MWANGIKENNEDY/jobs-app",
     coverImage: "/job-board.png"
   },
 
-     {
-    title: "URL driven multi-step form",
-    description: "A premium e-commerce experience featuring advanced filtering, real-time cart persistence, and a modern multi-step checkout flow.",
+  {
+    title: "URL-Driven Multi-Step Form",
+    description:
+      "A step-based form where progress is fully controlled through URL parameters, enabling deep linking, refresh persistence, and predictable navigation.",
     tags: ["Next.js", "Tailwind CSS"],
     liveLink: "https://multi-step-form-isq4o20y2-mwangikennedys-projects.vercel.app/",
     githubLink: "https://github.com/MWANGIKENNEDY/multi-step-form",
     coverImage: "/multi-step-form.png"
   },
 
-    {
-    title: "JIRA style drag and drop",
-    description: "A premium e-commerce experience featuring advanced filtering, real-time cart persistence, and a modern multi-step checkout flow.",
+  {
+    title: "Jira-Style Drag & Drop Board",
+    description:
+      "An interactive drag-and-drop task board inspired by Jira, demonstrating sortable columns, smooth interactions, and real-world workflow patterns.",
     tags: ["Next.js", "Tailwind CSS"],
     liveLink: "https://drag-and-drop-jira-kz24my3l9-mwangikennedys-projects.vercel.app/",
     githubLink: "https://github.com/MWANGIKENNEDY/drag-and-drop-jira",
@@ -66,79 +90,96 @@ const projects = [
   },
 
   {
-    title: "Product Catalog - Using URL parameters as state",
-    description: "A premium e-commerce experience featuring advanced filtering, real-time cart persistence, and a modern multi-step checkout flow.",
+    title: "Product Catalog (URL as State)",
+    description:
+      "A scalable product catalog where filtering, sorting, and pagination are controlled entirely via URL search parameters.",
     tags: ["Next.js", "Tailwind CSS"],
     liveLink: "https://holding-state-in-url-search-paramet.vercel.app/",
     githubLink: "https://github.com/MWANGIKENNEDY/holding-state-in-url-search-parameters",
     coverImage: "/product-catalog.png"
   },
 
-    {
-    title: "Tour Landing Site",
-    description: "A premium e-commerce experience featuring advanced filtering, real-time cart persistence, and a modern multi-step checkout flow.",
+  {
+    title: "Tour Landing Page",
+    description:
+      "A visually engaging landing page designed to promote tours and travel experiences with a strong focus on layout, imagery, and call-to-action.",
     tags: ["Next.js", "Tailwind CSS"],
     liveLink: "https://tour-landing-page-genesis.vercel.app/",
     githubLink: "https://github.com/MWANGIKENNEDY/tour-landing-page.git",
     coverImage: "/tour-landing.png"
   },
+
   {
-    title: "Ecommerce Advanced",
-    description: "A premium e-commerce experience featuring advanced filtering, real-time cart persistence, and a modern multi-step checkout flow.",
+    title: "Advanced E-Commerce Platform",
+    description:
+      "A feature-rich e-commerce application with Stripe payments, global state management, and a production-grade shopping experience.",
     tags: ["Next.js", "Tailwind CSS", "Zustand", "React"],
     liveLink: "https://ecommerce-with-stripe-xnqp.vercel.app/",
     githubLink: "https://github.com/MWANGIKENNEDY/ecommerce-with-stripe",
     coverImage: "/ecommerce-advanced.png"
   },
+
   {
     title: "School Management System",
-    description: "A comprehensive platform for managing school operations, students, and staff.",
+    description:
+      "A comprehensive school management platform handling students, staff, and operations with a full-stack architecture and containerized setup.",
     tags: ["React", "Postgresql", "MySQL", "Docker", "Prisma", "Cloudinary"],
     liveLink: "https://school-management-system-pt036jue8-mwangikennedys-projects.vercel.app/",
     githubLink: "https://github.com/MWANGIKENNEDY/school-management-system.git",
     coverImage: "/school-system.png"
   },
+
   {
-    title: "Food Ordering App",
-    description: "Modern food delivery interface with seamless ordering and category filtering.",
+    title: "Food Ordering Application",
+    description:
+      "A modern food ordering interface with category filtering, intuitive navigation, and a clean, mobile-friendly design.",
     tags: ["Next.js", "Zustand", "Tailwind CSS"],
     liveLink: "https://next-food-booking.vercel.app/",
     githubLink: "https://github.com/MWANGIKENNEDY/nextFoodBooking",
     coverImage: "/foodApp.png"
   },
+
   {
-    title: "Gym App",
-    description: "Highly interactive gym membership and booking application with smooth transitions.",
+    title: "Gym Membership App",
+    description:
+      "An interactive fitness application focused on gym memberships and bookings, enhanced with smooth animations and transitions.",
     tags: ["Next.js", "Framer-Motion", "Tailwind CSS"],
     liveLink: "https://next-gymapp.vercel.app/",
     githubLink: "https://github.com/MWANGIKENNEDY/nextGymapp",
     coverImage: "/gymApp.png"
   },
+
   {
-    title: "Ecommerce App",
-    description: "Fast and responsive e-commerce storefront with optimized product listings.",
+    title: "E-Commerce Storefront",
+    description:
+      "A fast, responsive e-commerce storefront optimized for browsing products and delivering a smooth shopping experience.",
     tags: ["Next.js", "Tailwind CSS"],
     liveLink: "https://ecommerce-1tij-em7d7rhwa-mwangikennedys-projects.vercel.app/",
     githubLink: "https://github.com/MWANGIKENNEDY/ecommerce.git",
     coverImage: "/ecommerce.png"
   },
+
   {
-    title: "Blog App",
-    description: "Full-featured blogging platform with Clerk auth and MongoDB backend.",
+    title: "Blog Platform",
+    description:
+      "A full-stack blogging platform featuring authentication, content management, and a scalable backend powered by MongoDB.",
     tags: ["Next.js", "Tailwind CSS", "Clerk", "ExpressJS", "MongoDB"],
     liveLink: "https://my-blog-1i1s.vercel.app/",
     githubLink: "https://github.com/MWANGIKENNEDY/my-blog.git",
     coverImage: "/blog.png"
   },
+
   {
-    title: "Admin Dashboard",
-    description: "Data-heavy dashboard with charts and management tools built using Shadcn UI.",
+    title: "Analytics Admin Dashboard",
+    description:
+      "A data-focused admin dashboard featuring charts, metrics, and management tools built with modern UI libraries.",
     tags: ["Next.js", "Tailwind CSS", "Mantine Charts", "Shadcn UI"],
     liveLink: "https://admin-dashboard-jfp4kk2vq-mwangikennedys-projects.vercel.app/",
     githubLink: "https://github.com/MWANGIKENNEDY/admin-dashboard.git",
     coverImage: "/admin-dashboard.png"
   }
 ]
+
 
 const Projects = () => {
   return (
