@@ -9,6 +9,26 @@ import Image from 'next/image';
 import { motion } from 'framer-motion';
 
 const projects = [
+
+   {
+    title: "Inventory Manager",
+    description:
+      "A polished multi-step checkout flow designed for conversion, featuring smooth step transitions, clear progress tracking, and a production-ready user experience.",
+    tags: ["Next.js", "Tailwind CSS"],
+    liveLink: "https://inventory-manager-rrf2.vercel.app/inventory",
+    githubLink: "https://github.com/MWANGIKENNEDY/inventory-manager",
+    coverImage: "/inventory-manager.png"
+  },
+
+  {
+    title: "CRM Leads Page",
+    description:
+      "A polished multi-step checkout flow designed for conversion, featuring smooth step transitions, clear progress tracking, and a production-ready user experience.",
+    tags: ["Next.js", "Tailwind CSS"],
+    liveLink: "https://crm-leads-page-i1dc23qns-mwangikennedys-projects.vercel.app/",
+    githubLink: "https://github.com/MWANGIKENNEDY/crm-leads-page",
+    coverImage: "/crm-leads.png"
+  },
   {
     title: "Multi-Step Checkout Experience",
     description:
