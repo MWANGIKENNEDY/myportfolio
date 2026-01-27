@@ -10,6 +10,46 @@ import { motion } from 'framer-motion';
 
 const projects = [
 
+  {
+    title: "Frontend With Microservices",
+    description:
+      "A polished multi-step checkout flow designed for conversion, featuring smooth step transitions, clear progress tracking, and a production-ready user experience.",
+    tags: ["Next.js", "Tailwind CSS"],
+    liveLink: "https://frontend-with-microservices.vercel.app/",
+    githubLink: "https://github.com/MWANGIKENNEDY/frontend-with-microservices",
+    coverImage: "/microservices.png"
+  },
+
+   {
+    title: "Audit Log Viewer",
+    description:
+      "A polished multi-step checkout flow designed for conversion, featuring smooth step transitions, clear progress tracking, and a production-ready user experience.",
+    tags: ["Next.js", "Tailwind CSS"],
+    liveLink: "https://audit-log-viewer-iota.vercel.app/",
+    githubLink: "https://github.com/MWANGIKENNEDY/audit-log-viewer",
+    coverImage: "/audit.png"
+  },
+
+   {
+    title: "Settings App",
+    description:
+      "A polished multi-step checkout flow designed for conversion, featuring smooth step transitions, clear progress tracking, and a production-ready user experience.",
+    tags: ["Next.js", "Tailwind CSS"],
+    liveLink: "https://settings-app-phi.vercel.app/settings",
+    githubLink: "https://github.com/MWANGIKENNEDY/settings-app",
+    coverImage: "/settings.png"
+  },
+
+   {
+    title: "Feature Flags Manager",
+    description:
+      "A polished multi-step checkout flow designed for conversion, featuring smooth step transitions, clear progress tracking, and a production-ready user experience.",
+    tags: ["Next.js", "Tailwind CSS"],
+    liveLink: "https://feature-flags-playground-seven.vercel.app/",
+    githubLink: "https://github.com/MWANGIKENNEDY/feature-flags-playground",
+    coverImage: "/feature-flags.png"
+  },
+
    {
     title: "Inventory Manager",
     description:
